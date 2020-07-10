@@ -10,7 +10,7 @@ vector<pair<float, string>> mass;
 
 int main() {
     ifstream fin("../country_infection_rate.txt");
-    ofstream fout("../output.txt");
+    ofstream fout("../output_min_or_max.txt");
     int N;
     fin >> N;
 
